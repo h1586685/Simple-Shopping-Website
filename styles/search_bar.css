@@ -1,0 +1,48 @@
+.form-input {
+    height: 55px;
+    text-indent: 30px;
+    border-radius: 10px 
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top: 20px;
+  }
+
+
+#search_box{
+    width:400px;
+    height: 60px;
+}
+
+.search-btn{
+    position: relative;
+    top: -60px;
+    left: 410px;
+    height: 60px;
+    width: 50px;
+    border-radius: 10px;
+    background-image:url(../image/search-x30.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container .logo{
+    position: relative;
+    margin-right :60px;
+    margin-left  :50px;
+}
+
+.container .but{
+    position: relative;
+    top: 5px;
+    margin-left :100px;
+}
